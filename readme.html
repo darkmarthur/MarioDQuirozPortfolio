@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>README</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" href="readme/css/jqeury.mobile.theme.min.css" />
+        <link rel="stylesheet" href="readme/css/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="readme/css/jquery.mobile.min.css" />
+        <link rel="stylesheet" href="readme/css/nightly.css" />
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic|Oswald:400,700' rel='stylesheet' type='text/css'>
+        <script src="readme/js/jquery.min.js"></script>
+        <script src="readme/js/jquery.mobile.min.js"></script>
+        <script src="js/nightly.js"></script>
+
+    </head>
+     <body>
+
+        <div data-role="page" data-theme='c'>
+
+            <div data-role="panel" data-display="push" id="sidebar" data-theme="c">
+                <ul data-role="listview">
+                    <li data-icon='false' class="menu-item-has-children"><a href="#">Go to</a>
+                        <ul data-role="listview" class="sub-menu">
+                            <li data-icon='false'><a data-ajax="false" href="index.html">INICIO</a></li>
+                            <li data-icon='false'><a data-ajax="false" href="concierto.html">CONCIERTOS</a></li>
+                            <li data-icon='false'><a data-ajax="false" href="boda.html">BODAS / XV</a></li>
+                            <li data-icon='false'><a data-ajax="false" href="studio.html">STUDIO</a></li>
+                            <li data-icon='false'><a data-ajax="false" href="conoceme.html">CONOCEME</a></li>
+                            <li data-icon='false'><a data-ajax="false" href="http://www.flickr.com/photos/mariodquiroz">PORTAFOLIO</a></li>
+                            <li data-icon='false'><a data-ajax="false" href="contact.html">CONTACTAME</a></li>
+
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <form id="searchform" data-theme="c">
+            </form>
+
+            <div data-role="header" data-tap-toggle="false" data-theme='c'>
+                <a href='#sidebar'data-role="none"><img src="readme/images/menu-icon.png" alt="sidebar" id="header-menu-icon" /></a>
+                <h1 class="header-title">Mario D. Quiroz</h1>
+            </div>
+
+            <div data-role="content">
+                <div class="align-center">
+                    <h1>Readme</h1>
+                    <p>El objetivo de este archivo es llevar un orden con las tareas por realizar de una amnera mas ordenada</p>
+                </div>
+
+                <hr />
+
+                <h2>Bitacora</h2>
+                <div data-role="collapsible-set" data-theme="a" data-content-theme="a" data-corners="false">
+                    <div data-role="collapsible">
+                        <h3>Pendientes</h3>
+                        <div class='inset'>
+                            <h3>Pendientes</h3>
+                            <p>
+                                *cambiar texto javascrip index
+                                * ESCONDER blog.html
+                                * CREAR MASTER PAGE QUE INCLUYA EL MISMO NAVEGADOR CON LOGO, PIE DE PÁGINA QUE INCLUYA MIS REDES SOCIALES TAMBIEN.
+                                * Borrar index-2. P A L O M I T A
+                                * INDEX 2 es el index pero sin opacidad ------------> TAL VEZ SE OCUPE
+                                * Single post es para hacer publicaciones o foros -----------> N O   S E   O C U P A
+                                * Cart es para hacer un carrito de compras  -----------> N O   S E   O C U P A
+                                * Slide show otra galería  N O   S E   O C U P A
+                                * CREAR HIJO DE MASTERPAGE PARA CREAR UN NAVEGADOR PERSONALIZADO A:
+
+                                    [(index.html)](TODOS SUBJETIVO CULTURA MÚSICA RETRATOS)
+                                    [(about.html)](TODO SERVICIOS EJEMPLOS)
+                            </p>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>ASP'S (PENDIENTE)</h3>
+                        <div class='inset'>
+                            <p>
+                                * index.html   -> navegador individual (TODOS SUJETIVO CULTURA MÚSICA RETRATOS)
+                                * masonry.html -> navegador sencillo
+                                * slider.html  -> navegador sencillo
+                                * classic.html -> navegador sencillo
+                                * blog.html    -> navegador sencillo
+                                * contact.html -> navegador sencillo
+                                * about.html   -> navegador individual (TODO SERVICIOS EJEMPLOS)
+                            </p>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>CAMBIAR NOMBRES (LISTO)</h3>
+                        <div class='inset'>
+                            <p>
+                                * masonry.html -> concierto.html
+                                * slider.html  -> boda.html
+                                * classic.html -> studio.html
+                                * about.html   -> conoceme.html
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                <code>Simple &lt;code> element for source codes.</code>
+
+                <h3>Highlights</h3>
+                <h4>Theme A</h4>
+                <p>Lorem ipsum dolor sit amet, <span class="highlight" data-theme="a">consectetur adipiscing elit.</span> Duis aliquam mattis mauris vel varius. Morbi ullamcorper arcu nec feugiat tincidunt.</p>
+                <h4>Theme B</h4>
+                <p>Lorem ipsum dolor sit amet, <span class="highlight" data-theme="b">consectetur adipiscing elit.</span> Duis aliquam mattis mauris vel varius. Morbi ullamcorper arcu nec feugiat tincidunt.</p>
+                <a href="#popup1" data-rel="popup" data-transition="pop">Show source</a>
+                <div data-role="popup" id="popup1" data-shadow="false">
+                    <code>&lt;span class="highlight" data-theme="a">highlighted text&lt;/span></code>
+                </div>
+
+                <h3>Tags</h3>
+                <h4>Theme A</h4>
+                <p><a class="ui-tag" data-theme="a" href="#">Music</a><a class="ui-tag" data-theme="a" href="#">Movies</a><a class="ui-tag" data-theme="a" href="#">Books</a></p>
+                <h4>Theme B</h4>
+                <p><a class="ui-tag" data-theme="b" href="#">Music</a><a class="ui-tag" data-theme="b" href="#">Movies</a><a class="ui-tag" data-theme="b" href="#">Books</a></p>
+                <a href="#popup2" data-rel="popup" data-transition="pop">Show source</a>
+                <div data-role="popup" id="popup2" data-shadow="false">
+                    <code>&lt;a class="ui-tag" data-theme="a" href="#">Tag&lt;/a></code>
+                </div>
+
+
+
+                <h3>Accordions</h3>
+                <div data-role="collapsible-set" data-theme="a" data-content-theme="a" data-corners="false">
+                    <div data-role="collapsible">
+                        <h3>Content</h3>
+                        <div class='inset'>
+                            <h3>I am title</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in tristique nulla.</p>
+                        </div>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>Listview</h3>
+                        <ul data-role="listview">
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#popup5" data-rel="popup" data-transition="pop">Show source</a>
+                <div data-role="popup" id="popup5" data-shadow="false">
+                    <pre>&lt;div data-role="collapsible-set" data-theme="a" data-content-theme="a" data-corners="false">
+    &lt;div data-role="collapsible">
+        &lt;h3>Content&lt;/h3>
+        &lt;div class='inset'>
+            &lt;h3>I am title&lt;/h3>
+            &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in tristique nulla.&lt;/p>
+        &lt;/div>
+    &lt;/div>
+    &lt;div data-role="collapsible">
+        &lt;h3>Listview&lt;/h3>
+        &lt;ul data-role="listview">
+            &lt;li>&lt;a href="#">Item 1&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="#">Item 2&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="#">Item 3&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="#">Item 4&lt;/a>&lt;/li>
+        &lt;/ul>
+    &lt;/div>
+&lt;/div></pre>
+                </div>
+
+                <h3>Listview</h3>
+                <p>
+                <ul data-role="listview" data-icon="false" data-divider-theme="a">
+                    <li data-role="list-divider">Webdesign (theme A)</li>
+                    <li data-theme="b"><a href="#">
+                        <img src="http://www.placehold.it/150x150">
+                        <h2>Website design</h2>
+                        <p>Description of your project.</p>
+                        <p class="ui-li-aside"><a class="ui-tag" data-theme="a" href="#">Design</a><a class="ui-tag" data-theme="a" href="#">HTML</a></p>
+                    </a></li>
+                    <li data-theme="b"><a href="#">
+                        <img src="http://www.placehold.it/150x150">
+                        <h2>Website design</h2>
+                        <p>Description of your project.</p>
+                        <p class="ui-li-aside"><a class="ui-tag" data-theme="a" href="#">HTML</a><a class="ui-tag" data-theme="a" href="#">PHP</a></p>
+                    </a></li>
+                    <li data-role="list-divider" data-theme="b">Mobile Apps (theme B)</li>
+                    <li data-theme="b"><a href="#">
+                        <img src="http://www.placehold.it/150x150">
+                        <h2>Book cover</h2>
+                        <p>Description of your project.</p>
+                        <p class="ui-li-aside"><a class="ui-tag" data-theme="b" href="#">Design</a><a class="ui-tag" data-theme="b" href="#">Book</a></p></a></li>
+                </ul>
+                </p>
+                <a href="#popup6" data-rel="popup" data-transition="pop">Show source</a>
+                <div data-role="popup" id="popup6" data-shadow="false">
+<pre>
+&lt;ul data-role="listview" data-inset="false" data-icon="false" data-divider-theme="a">
+    &lt;li data-role="list-divider">Webdesign (theme A)</li>
+    &lt;li data-theme="b">&lt;a href="#">
+        &lt;img src="http://www.placehold.it/150x150">
+        &lt;h2>Website design&lt;/h2>
+        &lt;p>Description of your project.&lt;/p>
+        &lt;p class="ui-li-aside">&lt;a class="ui-tag" data-theme="a" href="#">Webdesign&lt;/a>&lt;a class="ui-tag" data-theme="a" href="#">HTML&lt;/a>
+    &lt;/a>&lt;/li>
+&lt;/ul></pre>
+                </div>
+
+                <p></p>
+
+                <div data-role="tabs">
+                    <div data-role="navbar" data-shadow="false" data-corners="false">
+                        <ul>
+                          <li><a href="#one" data-theme="a" data-ajax="false">One</a></li>
+                          <li><a href="#two" data-theme="a" data-ajax="false">Two</a></li>
+                          <li><a href="ajax-tab-content.html" data-theme="a" data-ajax="false">Three</a></li>
+                        </ul>
+                    </div>
+                    <div id="one" class="ui-content">
+                    <h2>First tab content</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in tristique nulla. Etiam ipsum neque, blandit quis tempus vel, consequat non dui. Aliquam vitae condimentum purus.</p>
+                    </div>
+                    <div id="two" class="ui-content">
+                        <ul data-role="listview">
+                            <li data-role="list-divider">Second tab list</li>
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Item 2</a></li>
+                            <li><a href="#">Item 3</a></li>
+                            <li><a href="#">Item 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#popup7" data-rel="popup" data-transition="pop">Show source</a>
+                <div data-role="popup" id="popup7" data-shadow="false">
+<pre>&lt;div data-role="tabs">
+    &lt;div data-role="navbar" data-shadow="false" data-corners="false">
+        &lt;ul>
+          &lt;li>&lt;a href="#one" data-theme="a" data-ajax="false">one&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="#two" data-theme="a" data-ajax="false">two&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="ajax-tab-content.html" data-theme="a" data-ajax="false">three&lt;/a>&lt;/li>
+        &lt;/ul>
+    &lt;/div>
+    &lt;div id="one" class="ui-content">
+    &lt;h2>First tab content&lt;/h2>
+    &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in tristique nulla. Etiam ipsum neque, blandit quis tempus vel, consequat non dui. Aliquam vitae condimentum purus.&lt;/p>
+    &lt;/div>
+    &lt;div id="two" class="ui-content">
+        &lt;ul data-role="listview">
+            &lt;li data-role="list-divider">Second tab list&lt;/li>
+            &lt;li>&lt;a href="#">Item 1&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="#">Item 2&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="#">Item 3&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="#">Item 4&lt;/a>&lt;/li>
+        &lt;/ul>
+    &lt;/div>
+&lt;/div></pre>
+
+                </div>
+
+                <div data-role="footer" data-theme="none" data-border="false">
+                    <p data-inset="true">NIGHTLY 2015. All rights reserved.</p>
+                </div>
+
+        </div>
+-->
+
+    </body>
+
+</html>
